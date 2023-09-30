@@ -6,9 +6,9 @@
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
-    name = "Thomson"
-    age = 25;
-    print("Hello world")  # Press ⌘F8 to toggle the breakpoint.
+    birth_year = input("Please enter the year you were born ")
+    age = 2023 - int(birth_year)
+    print("You are " + str(age) + " years old")
 
 
 # Press the green button in the gutter to run the script.
